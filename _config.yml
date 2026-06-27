@@ -1,0 +1,30 @@
+title: Jinyoung's Study Notes
+author: Jinyoung Song
+logo: ""
+
+execute:
+  execute_notebooks: "off"
+
+parse:
+  myst_enable_extensions:
+    - amsmath
+    - dollarmath
+    - colon_fence
+    - deflist
+
+html:
+  use_issues_button: true
+  use_repository_button: true
+  use_edit_page_button: false
+
+repository:
+  url: https://github.com/diligejy/Jinyoung_Study_Note
+  path_to_book: .
+  branch: main
+
+launch_buttons:
+  colab_url: "https://colab.research.google.com"
+
+sphinx:
+  config:
+    language: ko

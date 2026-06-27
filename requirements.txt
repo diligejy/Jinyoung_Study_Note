@@ -1,0 +1,7 @@
+jupyter-book>=0.15
+numpy
+pandas
+scipy
+matplotlib
+pulp
+networkx

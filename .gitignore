@@ -1,0 +1,6 @@
+_build/
+.DS_Store
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+setup_files.py
