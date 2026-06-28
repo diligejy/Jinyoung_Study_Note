@@ -15,7 +15,8 @@ parts:
         - file: operations-research/practical-guide-or-python/ch01-introduction/python-markdown
       - file: operations-research/practical-guide-or-python/ch02-continuous-lp/index
         sections:
-        - file: operations-research/practical-guide-or-python/ch02-continuous-lp/tutorials
+        - file: operations-research/practical-guide-or-python/ch02-continuous-lp/2_1_1_continuous_lp
+        - file: operations-research/practical-guide-or-python/ch02-continuous-lp/2_1_2_clp_graphic_solution
         - file: operations-research/practical-guide-or-python/ch02-continuous-lp/exercises
         - file: operations-research/practical-guide-or-python/ch02-continuous-lp/solved-exercises
         - file: operations-research/practical-guide-or-python/ch02-continuous-lp/python-libraries
