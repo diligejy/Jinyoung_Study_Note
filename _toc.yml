@@ -1,51 +1,51 @@
 format: jb-book
 root: intro
-
 parts:
-  - caption: Operations Research
-    chapters:
-    - file: operations-research/practical-guide-or-python/index
+- caption: Operations Research
+  chapters:
+  - file: operations-research/practical-guide-or-python/index
+    sections:
+    - file: operations-research/practical-guide-or-python/ch01-introduction/index
       sections:
-      - file: operations-research/practical-guide-or-python/ch01-introduction/index
-        sections:
-        - file: operations-research/practical-guide-or-python/ch01-introduction/or-introduction
-        - file: operations-research/practical-guide-or-python/ch01-introduction/supply-chain-models
-        - file: operations-research/practical-guide-or-python/ch01-introduction/or-and-ai
-        - file: operations-research/practical-guide-or-python/ch01-introduction/jupyter-notebooks
-        - file: operations-research/practical-guide-or-python/ch01-introduction/python-markdown
-      - file: operations-research/practical-guide-or-python/ch02-continuous-lp/index
-        sections:
-        - file: operations-research/practical-guide-or-python/ch02-continuous-lp/2_1_1_continuous_lp
-        - file: operations-research/practical-guide-or-python/ch02-continuous-lp/2_1_2_clp_graphic_solution
-        - file: operations-research/practical-guide-or-python/ch02-continuous-lp/exercises
-        - file: operations-research/practical-guide-or-python/ch02-continuous-lp/solved-exercises
-        - file: operations-research/practical-guide-or-python/ch02-continuous-lp/python-libraries
-      - file: operations-research/practical-guide-or-python/ch03-combinatorial-optimization/index
-        sections:
-        - file: operations-research/practical-guide-or-python/ch03-combinatorial-optimization/tutorials
-        - file: operations-research/practical-guide-or-python/ch03-combinatorial-optimization/exercises
-        - file: operations-research/practical-guide-or-python/ch03-combinatorial-optimization/solved-exercises
-        - file: operations-research/practical-guide-or-python/ch03-combinatorial-optimization/python-libraries
-      - file: operations-research/practical-guide-or-python/ch04-nonlinear-programming/index
-        sections:
-        - file: operations-research/practical-guide-or-python/ch04-nonlinear-programming/tutorials
-        - file: operations-research/practical-guide-or-python/ch04-nonlinear-programming/exercises
-        - file: operations-research/practical-guide-or-python/ch04-nonlinear-programming/solved-exercises
-      - file: operations-research/practical-guide-or-python/ch05-decision-game-theory/index
-        sections:
-        - file: operations-research/practical-guide-or-python/ch05-decision-game-theory/tutorials
-        - file: operations-research/practical-guide-or-python/ch05-decision-game-theory/decision-theory-exercises
-        - file: operations-research/practical-guide-or-python/ch05-decision-game-theory/decision-theory-solved
-        - file: operations-research/practical-guide-or-python/ch05-decision-game-theory/game-theory-exercises
-        - file: operations-research/practical-guide-or-python/ch05-decision-game-theory/game-theory-solved
-      - file: operations-research/practical-guide-or-python/ch06-simulation-markov/index
-        sections:
-        - file: operations-research/practical-guide-or-python/ch06-simulation-markov/tutorials
-        - file: operations-research/practical-guide-or-python/ch06-simulation-markov/montecarlo-exercises
-        - file: operations-research/practical-guide-or-python/ch06-simulation-markov/montecarlo-solved
-        - file: operations-research/practical-guide-or-python/ch06-simulation-markov/markov-chain-exercises
-        - file: operations-research/practical-guide-or-python/ch06-simulation-markov/markov-chain-solved
-
-  - caption: Causal Inference
-    chapters:
-    - file: causal-inference/index
+      - file: operations-research/practical-guide-or-python/ch01-introduction/or-introduction
+      - file: operations-research/practical-guide-or-python/ch01-introduction/supply-chain-models
+      - file: operations-research/practical-guide-or-python/ch01-introduction/or-and-ai
+      - file: operations-research/practical-guide-or-python/ch01-introduction/jupyter-notebooks
+      - file: operations-research/practical-guide-or-python/ch01-introduction/python-markdown
+    - file: operations-research/practical-guide-or-python/ch02-continuous-lp/index
+      sections:
+      - file: operations-research/practical-guide-or-python/ch02-continuous-lp/2_1_1_continuous_lp
+      - file: operations-research/practical-guide-or-python/ch02-continuous-lp/2_1_2_clp_graphic_solution
+      - file: operations-research/practical-guide-or-python/ch02-continuous-lp/2_1_3_interactive_graphic_method
+      - file: operations-research/practical-guide-or-python/ch02-continuous-lp/2_1_4_simplex_graphic
+      - file: operations-research/practical-guide-or-python/ch02-continuous-lp/exercises
+      - file: operations-research/practical-guide-or-python/ch02-continuous-lp/solved-exercises
+      - file: operations-research/practical-guide-or-python/ch02-continuous-lp/python-libraries
+    - file: operations-research/practical-guide-or-python/ch03-combinatorial-optimization/index
+      sections:
+      - file: operations-research/practical-guide-or-python/ch03-combinatorial-optimization/tutorials
+      - file: operations-research/practical-guide-or-python/ch03-combinatorial-optimization/exercises
+      - file: operations-research/practical-guide-or-python/ch03-combinatorial-optimization/solved-exercises
+      - file: operations-research/practical-guide-or-python/ch03-combinatorial-optimization/python-libraries
+    - file: operations-research/practical-guide-or-python/ch04-nonlinear-programming/index
+      sections:
+      - file: operations-research/practical-guide-or-python/ch04-nonlinear-programming/tutorials
+      - file: operations-research/practical-guide-or-python/ch04-nonlinear-programming/exercises
+      - file: operations-research/practical-guide-or-python/ch04-nonlinear-programming/solved-exercises
+    - file: operations-research/practical-guide-or-python/ch05-decision-game-theory/index
+      sections:
+      - file: operations-research/practical-guide-or-python/ch05-decision-game-theory/tutorials
+      - file: operations-research/practical-guide-or-python/ch05-decision-game-theory/decision-theory-exercises
+      - file: operations-research/practical-guide-or-python/ch05-decision-game-theory/decision-theory-solved
+      - file: operations-research/practical-guide-or-python/ch05-decision-game-theory/game-theory-exercises
+      - file: operations-research/practical-guide-or-python/ch05-decision-game-theory/game-theory-solved
+    - file: operations-research/practical-guide-or-python/ch06-simulation-markov/index
+      sections:
+      - file: operations-research/practical-guide-or-python/ch06-simulation-markov/tutorials
+      - file: operations-research/practical-guide-or-python/ch06-simulation-markov/montecarlo-exercises
+      - file: operations-research/practical-guide-or-python/ch06-simulation-markov/montecarlo-solved
+      - file: operations-research/practical-guide-or-python/ch06-simulation-markov/markov-chain-exercises
+      - file: operations-research/practical-guide-or-python/ch06-simulation-markov/markov-chain-solved
+- caption: Causal Inference
+  chapters:
+  - file: causal-inference/index
